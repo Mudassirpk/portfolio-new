@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Mudassir",
+  lastName: "Khan",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Full Stack Developer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Karachi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Urdu"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -17,8 +17,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about design, technology, and share thoughts on the
+      intersection of creativity and engineering.
     </>
   ),
 };
@@ -29,22 +29,17 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Mudassirpk",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "X",
-    icon: "x",
-    link: "",
+    link: "https://www.linkedin.com/in/mudassir-khan-7512151b8",
   },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:mudassir.pk.mp@gmail.com",
   },
 ];
 
@@ -52,13 +47,8 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
-  subline: (
-    <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
-    </>
-  ),
+  headline: <>Full Stack Developer</>,
+  subline: <>I'm Mudassir, a full stack developer.</>,
 };
 
 const about = {
@@ -81,9 +71,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Mudassir is full stack developer with passion of turning ideas into
+        products, problems into solutions and requirements into features. With
+        3+ years of experience I have built solutions of various complexities,
+        using appropriate tech stacks.
       </>
     ),
   },
@@ -92,41 +83,62 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "HumAi Webs",
+        timeframe: "Sep 2024 - Present",
+        role: "Full Stack Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Built E-commerce webs app using NextJS, insuring best design,
+            archetecture and seo practices.
           </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+          <>Integreated Stripe and Ngenius pay payment gateways.</>,
+          <>Worked with github actions, Docker to implement CI/CD.</>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Iancon Group LTD. UAE",
+        timeframe: "July 2023 - Sep 2024",
+        role: "Full Stack Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Lead a team of developers to build consoles (Dashboard panels) in
+            ReactJS, NestJS and PostgreSQL.
           </>,
+          <>Implemented Intra-Platform payments using Stripe Connect.</>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Developed RAGs using LLama3.1 (LLM), Nomic (Embedding model) and
+            Melvis vector database.
+          </>,
+          <>Self Hosted LLM models on VPS</>,
+          <>Handled application deployment, integration responsibilities.</>,
+          <>
+            Developed Data Piplines, ETL systems through webscrapping techniques
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Teknotize",
+        timeframe: "Sep 2023 - Feb 2024",
+        role: "Associate Full Stack Developer",
+        achievements: [
+          <>Migrated a ruby on rails backend to NodeJS/NestJS.</>,
+          <>
+            Improved the performance of app by 50% using best data structure
+            practices.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Remote",
+        timeframe: "Feb 2023 - April 2023",
+        role: "Full Stack Developer Intern",
+        achievements: [
+          <>Built wordpress plugins with PHP and ReactJS.</>,
+          <>
+            Worked with Open AI api to build an AI bot to chat with documents.
           </>,
         ],
         images: [],
@@ -138,12 +150,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "Virtual University of Pakistan.",
         description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
       },
     ],
   },
@@ -152,36 +160,45 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Frontend Development",
+        description: (
+          <>
+            Able to develop responsive, accessible and interactive frontend
+            using <span></span>
+            ReactJS,Angular, NextJS, ShadCN UI, Bootstrab and Material UI.
+          </>
+        ),
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Backend Development",
+        description: (
+          <>
+            Able to develop scallable backends using NestJS/NodeJS, MVC
+            archetecture, MYSQL, PostgreSQL and MongoDB.
+          </>
+        ),
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+      },
+      {
+        title: "Desktop Application Development",
+        description: (
+          <>
+            Able to develop cross-platform desktop apps using ElectronJS,
+            NodeJS.
+          </>
+        ),
+        // optional: leave the array empty if you don't want to display images
+      },
+      {
+        title: "Mobile Application Development",
+        description: (
+          <>
+            Able to develop cross-platform mobile apps using React Native,
+            NodeJS.
+          </>
+        ),
+        // optional: leave the array empty if you don't want to display images
       },
     ],
   },
