@@ -81,68 +81,97 @@ const about = {
   work: {
     display: true, // set to false to hide this section
     title: "Work Experience",
-    experiences: [
-      {
-        company: "HumAi Webs",
-        timeframe: "Sep 2024 - Present",
-        role: "Full Stack Developer",
-        achievements: [
-          <>
-            Built E-commerce webs app using NextJS, insuring best design,
-            archetecture and seo practices.
-          </>,
-          <>Integreated Stripe and Ngenius pay payment gateways.</>,
-          <>Worked with github actions, Docker to implement CI/CD.</>,
-        ],
-        images: [],
-      },
-      {
-        company: "Iancon Group LTD. UAE",
-        timeframe: "July 2023 - Sep 2024",
-        role: "Full Stack Developer",
-        achievements: [
-          <>
-            Lead a team of developers to build consoles (Dashboard panels) in
-            ReactJS, NestJS and PostgreSQL.
-          </>,
-          <>Implemented Intra-Platform payments using Stripe Connect.</>,
-          <>
-            Developed RAGs using LLama3.1 (LLM), Nomic (Embedding model) and
-            Melvis vector database.
-          </>,
-          <>Self Hosted LLM models on VPS</>,
-          <>Handled application deployment, integration responsibilities.</>,
-          <>
-            Developed Data Piplines, ETL systems through webscrapping techniques
-          </>,
-        ],
-        images: [],
-      },
-      {
-        company: "Teknotize",
-        timeframe: "Sep 2023 - Feb 2024",
-        role: "Associate Full Stack Developer",
-        achievements: [
-          <>Migrated a ruby on rails backend to NodeJS/NestJS.</>,
-          <>
-            Improved the performance of app by 50% using best data structure
-            practices.
-          </>,
-        ],
-        images: [],
-      },
-      {
-        company: "Remote",
-        timeframe: "Feb 2023 - April 2023",
-        role: "Full Stack Developer Intern",
-        achievements: [
-          <>Built wordpress plugins with PHP and ReactJS.</>,
-          <>
-            Worked with Open AI api to build an AI bot to chat with documents.
-          </>,
-        ],
-        images: [],
-      },
+    experiences: [{
+      company: "Packachange",
+      timeframe: "June 2025 - Present",
+      role: "Frontend Developer",
+      achievements: [
+        <>Enhance UI/UX for eCommerce web applications, improving user engagement for a US-based packaging company.</>,
+        <>Developed interactive, animated, and responsive frontends using Next.js, increasing user retention and satisfaction.</>,
+        <>Implemented Next.js markup streaming to prioritize critical UI sections, reducing perceived load times and improving performance metrics.</>,
+        <>Collaborated closely with the UI team to deliver pixel-perfect implementations from Figma designs, ensuring design consistency.</>,
+        <>
+          Optimized images and static assets using CDNs, achieving faster load times and improved
+          Core Web Vitals scores.
+        </>,
+        <>
+          Collaborated closely with business management to analyze and design user flows, ensuring
+          intuitive and efficient interactions for potential users.
+        </>
+      ],
+      images: [],
+    },
+    {
+      company: "HumAi Webs",
+      timeframe: "Sep 2024 - Present",
+      role: "Full Stack Developer",
+      achievements: [
+        <>Created end-to-end eCommerce platforms with Next.js, focusing on performance
+          optimization, scalability, and seamless user experiences.</>,
+        <>
+          Improved search performance by implementing SEO best practices in Next.js, utilizing
+          structured data, optimized SSR output, and server-side caching for faster data delivery.</>,
+        <>
+          Delivered fast, user-centric websites by aligning performance with Core Web Vitals metrics
+          and Google UX best practices.</>,
+        <>Managed VPS-based hosting for eCommerce platforms and implemented distributed/edge
+          hosting architectures to enhance scalability, availability, and load times.</>,
+        <>Improved page load speeds by deploying CDNs for images and static assets across eCommerce
+          and web platforms.</>,
+        <>Integrated multiple payment gateways securely, ensuring accurate payment processing,
+          transaction reliability, and robust order tracking systems.</>,
+      ],
+      images: [],
+    },
+    {
+      company: "Iancon Group LTD. UAE",
+      timeframe: "July 2023 - Sep 2024",
+      role: "Full Stack Developer",
+      achievements: [
+        <>Built modern, interactive, and user-friendly dashboards with React.js and Next.js, utilizing
+          shadcn/ui and Framer Motion, implementing secure access controls, and improving data
+          load performance across multiple dashboards.</>,
+        <>Implemented a scalable, secure, and high-performance backend using NestJS/Node.js,
+          ensuring reliability, maintainability, and efficient system growth.</>,
+        <>Designed extensible, scalable, industry-standard databases ensuring high performance,
+          data integrity, and seamless future expansion.</>,
+        <>Deployed self-hosted AI models with Ollama, built and integrated a WebUI, and leveraged
+          vector databases to enrich models with contextual marine data from multiple sources for
+          more accurate and relevant outputs.</>,
+        <>Worked closely with business stakeholders to architect scalable applications and
+          coordinated with system design teams to translate designs into accurate, production-ready
+          implementations.</>,
+        <>Managed production deployments on Linux VPS servers using Docker, Apache2/Nginx, PM2,
+          and GitHub Actions for CI/CD, while implementing security best practices to ensure system
+          reliability and protection.</>,
+        <>Led and mentored junior developers and interns, driving development workflows, enforcing
+          best practices, and ensuring consistent project progress.</>,
+      ],
+      images: [],
+    },
+    {
+      company: "Teknotize",
+      timeframe: "Sep 2023 - Feb 2024",
+      role: "Associate Full Stack Developer",
+      achievements: [
+        <>Migrated a ruby on rails backend to NodeJS/NestJS.</>,
+        <>Improved the performance of app by 50% using best data structure
+          practices.</>,
+      ],
+      images: [],
+    },
+    {
+      company: "Remote",
+      timeframe: "Feb 2023 - April 2023",
+      role: "Full Stack Developer Intern",
+      achievements: [
+        <>Built wordpress plugins with PHP and ReactJS.</>,
+        <>
+          Worked with Open AI api to build an AI bot to chat with documents.
+        </>,
+      ],
+      images: [],
+    },
     ],
   },
   studies: {
