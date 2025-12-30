@@ -103,7 +103,7 @@ const about = {
     },
     {
       company: "HumAi Webs",
-      timeframe: "Sep 2024 - Present",
+      timeframe: "Sep 2024 - June 2025",
       role: "Full Stack Developer",
       achievements: [
         <>Created end-to-end eCommerce platforms with Next.js, focusing on performance
